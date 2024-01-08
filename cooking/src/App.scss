@@ -1,0 +1,19 @@
+@font-face {
+  font-family: rich;
+  src: url(./font/gilroy/Gilroy-Regular.ttf);
+}
+*,
+*::after,
+*::before
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: rich;
+}
+@mixin header
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 2vw 3vw;
+}
